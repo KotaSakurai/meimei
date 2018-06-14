@@ -32,7 +32,8 @@ gem 'jbuilder', '~> 2.5'
 
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
-
+gem "jquery-rails"
+gem "sass-rails", '~> 5.0'
 gem 'haml-rails'
 
 group :development, :test do
