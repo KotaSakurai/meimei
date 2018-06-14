@@ -1,0 +1,3 @@
+class SynonymWordsController < ApplicationContoller
+
+end
