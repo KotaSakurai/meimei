@@ -13,8 +13,8 @@
 ActiveRecord::Schema.define(version: 20180614105554) do
 
   create_table "synonym_words", force: :cascade do |t|
-    t.integer "original", null: false
-    t.integer "similar", null: false
+    t.integer "original_id", null: false
+    t.integer "similar_id", null: false
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end
