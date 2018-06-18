@@ -1,2 +1,2 @@
 - @words.each do |word|
-  %p= word.name
+  %p= link_to word.name, word_path(word)

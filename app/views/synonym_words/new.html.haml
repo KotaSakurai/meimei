@@ -1,0 +1,5 @@
+= form_with model: @synonym_word,url: word_synonym_words_path, local: true do |form|
+  -# = form.select_field :name
+  = form.collection_select :similar_id, Word.all, :id, :name
+
+  = form.submit "Submit"
