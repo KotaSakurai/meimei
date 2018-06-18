@@ -1,0 +1,7 @@
+%p= @word.name
+
+= link_to "Add syn words", new_word_synonym_word_path(@word)
+
+%p syn_words
+- @word.similars.each do |synonym_word|
+  %p= synonym_word.name
